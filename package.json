@@ -1,5 +1,5 @@
 {
-  "name": "sample-publish-github-package",
+  "name": "@tlcheah2/sample-publish-github-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "semantic-release": "^19.0.3"
-  }
+  "devDependencies": {}
 }
