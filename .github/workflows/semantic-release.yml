@@ -21,6 +21,7 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
           scope: "@tlcheah2"
+      - run: "npm install -g --unsafe-perm semantic-release @semantic-release/changelog @semantic-release/git"
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
